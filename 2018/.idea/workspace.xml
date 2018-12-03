@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b8b7a44-5b87-46e5-b624-9b628005cb2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dayThree/dayThree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dayThree/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dayThree/testdata.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dayTwo/dayTwo.cpp_throw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dayTwo/dayTwo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dayTwo/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dayTwo/testdata.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dayTwo/testdata2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayOne/dayOne.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/dayOne/dayOne.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode2018/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode2018/AdventOfCode2018.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode2018/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayTwo/dayTwo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="1367">
               <caret line="128" selection-start-line="128" selection-end-line="128" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -52,6 +55,7 @@
         <option value="$PROJECT_DIR$/dayThree/dayThree.py" />
         <option value="$PROJECT_DIR$/dayOne/dayOne.cpp" />
         <option value="$PROJECT_DIR$/dayTwo/dayTwo.py" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -179,7 +183,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18797815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18797815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -187,7 +191,7 @@
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50054646" side_tool="true" visible="true" weight="0.3099352" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945354" visible="true" weight="0.3099352" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945354" visible="true" weight="0.3099352" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -255,8 +259,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dayTwo/dayTwo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="1367">
           <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
