@@ -1,5 +1,32 @@
 import operator
 import string
+
+
+def load_and_parse():
+    input_file = open("input.txt", "r")
+    point_data_texts = input_file.readlines()
+    input_file.close()
+
+    points = {}
+
+    for point_data in point_data_texts:
+        current_point = point_data[5:6]
+        depending_point = point_data[36:37]
+
+        if depending_point in points:
+            points[depending_point].append(current_point)
+            points[depending_point].sort()
+        else:
+            points[depending_point] = [current_point]
+
+        if not current_point in points:
+            points[current_point] = []
+
+    sorted_points_list = sorted(points.items(), key=operator.itemgetter(1))
+
+    return sorted_points_list
+
+
 # --- Day 7: The Sum of Its Parts ---
 # You find yourself standing on a snow-covered coastline; apparently, you landed a little off course.
 # The region is too hilly to see the North Pole from here, but you do spot some Elves that seem to be trying to
@@ -54,27 +81,9 @@ import string
 
 
 def part_one():
-    input_file = open("input.txt", "r")
-    point_data_texts = input_file.readlines()
-    input_file.close()
 
-    points = {}
-    point_order =[]
-
-    for point_data in point_data_texts:
-        current_point = point_data[5:6]
-        depending_point = point_data[36:37]
-
-        if depending_point in points:
-            points[depending_point].append(current_point)
-            points[depending_point].sort()
-        else:
-            points[depending_point] = [current_point]
-
-        if not current_point in points:
-            points[current_point] = []
-
-    sorted_points_list = sorted(points.items(), key=operator.itemgetter(1))
+    point_order = []
+    sorted_points_list = load_and_parse()
 
     while len(sorted_points_list):
         current_point = sorted_points_list[0]
@@ -143,9 +152,25 @@ def part_two():
     times = list(string.ascii_uppercase)
     times.insert(0, '')
 
+    point_order = []
+    sorted_points_list = load_and_parse()
 
+    while len(sorted_points_list):
+        current_point = sorted_points_list[0]
+        point_order.append(current_point[0])
 
+        for entry in sorted_points_list:
 
+            if current_point[0] in entry[1]:
+                index = entry[1].index(current_point[0])
+
+                if index > -1:
+                    del entry[1][index]
+
+        del sorted_points_list[0]
+        sorted_points_list = sorted(sorted_points_list, key=operator.itemgetter(1,0))
+
+    print("point_order:", ''.join(point_order))
 
 
 

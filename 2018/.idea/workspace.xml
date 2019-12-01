@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b8b7a44-5b87-46e5-b624-9b628005cb2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dayFour/testdata_reverses.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dayEight/dayEight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dayEight/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dayEight/testdata.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dayEleven/dayEleven.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayFive/dayFive.py" beforeDir="false" afterPath="$PROJECT_DIR$/dayFive/dayFive.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dayFour/dayFour.py" beforeDir="false" afterPath="$PROJECT_DIR$/dayFour/dayFour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daySeven/daySeven.py" beforeDir="false" afterPath="$PROJECT_DIR$/daySeven/daySeven.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,28 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dayFive/dayFive.py">
+        <entry file="file://$PROJECT_DIR$/dayEight/dayEight.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dayFive/testdata.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dayFive/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="544">
+              <caret line="181" column="28" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -70,6 +54,16 @@
         <option value="$PROJECT_DIR$/dayFour/testdata.txt" />
         <option value="$PROJECT_DIR$/dayFour/dayFour.py" />
         <option value="$PROJECT_DIR$/dayFive/dayFive.py" />
+        <option value="$PROJECT_DIR$/daySix/input.txt" />
+        <option value="$PROJECT_DIR$/daySix/testdata.txt" />
+        <option value="$PROJECT_DIR$/daySix/daySix.py" />
+        <option value="$PROJECT_DIR$/daySeven/input.txt" />
+        <option value="$PROJECT_DIR$/daySeven/testdata.txt" />
+        <option value="$PROJECT_DIR$/daySeven/daySeven.py" />
+        <option value="$PROJECT_DIR$/dayEight/input.txt" />
+        <option value="$PROJECT_DIR$/dayEight/testdata.txt" />
+        <option value="$PROJECT_DIR$/dayEleven/dayEleven.py" />
+        <option value="$PROJECT_DIR$/dayEight/dayEight.py" />
       </list>
     </option>
   </component>
@@ -81,50 +75,16 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="dayFive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="dayFour" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="dayOne" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="dayThree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="dayTwo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -139,7 +99,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dayFive">
+  <component name="RunManager" selected="Python.dayEleven">
+    <configuration name="dayEight" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayEight" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayEight/dayEight.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dayEleven" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayEleven" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayEleven/dayEleven.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="dayFive" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2018" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,7 +184,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dayThree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="daySeven" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="2018" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,32 +192,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayThree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/daySeven" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayThree/dayThree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dayTwo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="2018" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayTwo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayTwo/dayTwo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/daySeven/daySeven.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,10 +207,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dayEleven" />
+        <item itemvalue="Python.dayEight" />
+        <item itemvalue="Python.daySeven" />
         <item itemvalue="Python.dayFive" />
         <item itemvalue="Python.dayFour" />
-        <item itemvalue="Python.dayTwo" />
-        <item itemvalue="Python.dayThree" />
       </list>
     </recent_temporary>
   </component>
@@ -248,15 +230,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18797815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18797815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989071" visible="true" weight="0.3099352" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989071" weight="0.34341252" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -268,6 +249,39 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dayEight/dayEight.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dayEight/dayEight.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dayEight/dayEight.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dayEight/dayEight.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dayThree/input.txt">
@@ -365,10 +379,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/daySix/daySix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daySix/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daySix/testdata.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daySeven/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="100" column="48" lean-forward="true" selection-start-line="100" selection-start-column="48" selection-end-line="100" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dayFive/dayFive.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
+        <state relative-caret-position="-360">
+          <caret line="39" column="22" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayEight/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33803" selection-start-column="33803" selection-end-column="33803" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daySeven/testdata.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daySeven/daySeven.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3/dist-packages/apport_python_hook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayEight/testdata.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayEleven/dayEleven.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayEight/dayEight.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="181" column="28" selection-start-line="181" selection-start-column="28" selection-end-line="181" selection-end-column="28" />
         </state>
       </provider>
     </entry>
