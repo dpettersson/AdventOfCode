@@ -40,7 +40,7 @@ assert calculate_fuel(100756) == 33583
 
 def day_one_part_one():
     input_file = open("input.txt", "r")
-    input_dat a= input_file.readlines()
+    input_data = input_file.readlines()
     input_file.close()
 
     fuel_needed = 0
