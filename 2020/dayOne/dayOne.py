@@ -48,7 +48,7 @@ def day_one_part_one():
             return
 
 
-day_one_part_one()
+#day_one_part_one()
 
 
 # 
@@ -60,3 +60,28 @@ day_one_part_one()
 # Multiplying them together produces the answer, 241861950.
 #
 # In your expense report, what is the product of the three entries that sum to 2020?
+
+def day_one_part_two():
+    input_file = open("input.txt", "r")
+    data = input_file.read().splitlines()
+
+    target = 2020
+
+    # Really ugly solution.
+    first_index = 0
+    second_index = first_index + 1
+    third_index = second_index + 1
+
+    while first_index < len(data) - 2:
+
+
+
+
+
+        #diff = str(target - int(x))
+#
+#       if diff in data:
+#          index = data.index(diff)
+#
+#           print(int(data[index]) * int(x))
+ #          return
