@@ -155,7 +155,7 @@ def day_two_part_two():
 
     for noun in range(0, 99):
         for verb in range(0, 99):
-            data = original_data
+            data = original_data.copy()
             data[1] = noun
             data[2] = verb
 
